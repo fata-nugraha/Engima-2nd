@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0,192,236);
+}
+
+a:hover{
+    opacity:0.8;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+input[type=text], input[type=password] {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(0,192,236);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+  
+button:hover {
+    opacity: 0.8;
+}
+
+#login-container {
+    width: 320px;
+    height: 100%;
+    padding: 0px 40px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 7px rgba(0,0,0,0.1));
+}
+
+.container-form {
+    padding-top: 20px;
+}
+
+#container-submit {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#login-greetings {
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.label {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+#message {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600; 
+    padding-bottom: 40px;
+}
+  

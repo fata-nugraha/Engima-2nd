@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #262626;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: white;
+    filter: drop-shadow(0px 0px 7px rgba(0,0,0,0.1));
+}
+
+.a-nav {
+    color: #262626;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navbar {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 60px;
+    background-color: white;
+    height: 820px;
+}
+
+#search-container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    height: 720px;
+}
+
+#title {
+    color: rgb(0,192,236);
+    display: inline-block;
+}
+
+#nav {
+    position: relative;
+    left: 340px;
+    display: inline-block;
+}
+
+#greetings {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.thumbnail {
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+.thumbnail a img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+.thumbnail h5 {
+    width: 150px;
+}
+
+#now-playing {
+    padding-left: 20px;
+}
+
+mark.blue {
+    color: rgb(0,192,236);
+    background-color: inherit;
+}
+
+mark.black {
+    color: black;
+    background-color: inherit;
+}
+
+#search-engine {
+    display: inline-block;
+}
+
+#search-engine input[type=text] {
+    width: 300px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 6px 8px 6px 10px;
+    border-radius: 5px;
+    background-color: white;
+    background-image: url('../img/searchicon18px.png');
+    background-position: 270px 5px;
+    background-repeat: no-repeat;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+#show-keyword {
+    padding: 60px 0px 0px 60px;
+}
+
+#show-count {
+    padding: 10px 0px 0px 60px;
+}
+
+.search-thumbnail {
+    background: white;
+    width: 800px;
+    height: 250px;
+    width: inherit;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.search-thumbnail:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.search-pic img{
+    display: block;
+    float: left;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.search-details {
+    padding: 20px;
+    display: inline-block;
+    width: 740px;
+    line-height: 2em;
+}
+
+.search-description {
+    width: 600px;
+    line-height: 1.4em;
+    font-size: 0.9em;
+}
+
+.view-details {
+    color: blue;
+    margin-top: 20px;
+    float: right;
+}
+
+.movie-thumbnail {
+    background: white;
+    width: 800px;
+    height: 250px;
+    width: inherit;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.movie-pic img{
+    display: block;
+    float: left;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.movie-details {
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 650px;
+    line-height: 2em;
+}
+
+.movie-description {
+    line-height: 1.4em;
+    font-size: 0.9em;
+}
+
+.genre-time {
+    color: blue;
+}
+
+#schedule-review {
+}
+
+.movie-schedule {
+    display: inline-block;
+    width: 500px;
+    filter: drop-shadow(0px 0px 7px rgba(0,0,0,0.1));
+    height: 100%;
+    padding: 60px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 0;
+    vertical-align:top;
+}
+
+.movie-schedule table {
+    width: 100%;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+#movie-schedule-header {
+    padding: 30 0;
+}
+
+.movie-schedule td {
+    border-top: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.movie-schedule th,td {
+    padding: 15px 0px;
+}
+
+td.movie-availability {
+    text-align: right;
+}
+
+.movie-review {
+    display: inline-block;
+    width: 230px;
+    height: 100%;
+    filter: drop-shadow(0px 0px 7px rgba(0,0,0,0.1));
+    margin-left: 10px;
+    padding: 60px;
+    background-color: white;
+    border-radius: 10px;
+    vertical-align:top;
+}
+
+#movie-review-header {
+    padding: 30 0;
+}
+
+.available {
+    color: blue;
+}
+
+.not-available {
+    color: red;
+}
+
+.review{
+    display: block;
+    padding: 20px 0px;
+}
+.reviewer-pict {
+    vertical-align:top;
+    display: inline-block;
+}
+
+img.reviewer-profile-picture {
+    width: 30px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+
+.review-details {
+    display: inline-block;
+    margin-left: 10px;
+    width: 180px;
+    text-align: justify;
+}
+
+.star {
+    display: inline;
+    width: 15px;
+}
+
+.star-big {
+    display: inline;
+    color: yellow;
+    size: 300%;
+}
